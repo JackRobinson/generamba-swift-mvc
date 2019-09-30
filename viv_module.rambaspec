@@ -1,0 +1,25 @@
+# Template information section
+name: "generamba-swift-mvc"
+author: "YOUR_DEVELOPER_NAME_HERE"
+summary: "generamba-swift-mvc module"
+version: "1.0.0"
+license: "MIT"
+
+# The declarations for code files
+
+code_files:
+# Configurator
+- {name: Configurator/ModuleConfigurator.swift, path: Code/Configurator/configurator.swift.liquid}
+- {name: Configurator/ModuleInitializer.swift, path: Code/Configurator/initializer.swift.liquid}
+
+# Model
+- {name: Model/Model.swift, path: Code/Model/model.swift.liquid}
+- {name: Model/ModelInput.swift, path: Code/Model/model_input.swift.liquid}
+- {name: Model/ModelOutput.swift, path: Code/Model/model_output.swift.liquid}
+
+# Controller
+- {name: Controller/ViewController.swift, path: Code/Controller/controller.swift.liquid}
+- {name: Controller/ViewControllerInput.swift, path: Code/Controller/controller_input.swift.liquid}
+
+# View
+- {name: View/View.swift, path: Code/View/view.swift.liquid}
